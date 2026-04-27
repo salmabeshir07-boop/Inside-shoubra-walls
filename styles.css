@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+body.login-page {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+}
+body.ourteam-page {
+    background-image: url(team.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+.back-home-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.login-box {
+    width: 90%;
+    max-width: 350px;
+    background-color: rgba(207, 220, 229, 0.486);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header-text {
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 40px; }
+.header-text h1 {
+    color: #1a365d;
+    font-size: 2.5em;
+    margin-bottom: 10px;}
+.header-text .subtitle {
+    color: #718096;
+    font-size: 1.1em;}
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: block;}
+.header-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;}
+.header-text h1 {
+    color: #1a365d;
+    font-size: 2.5em;
+    margin-bottom: 10px;}
+.header-text .subtitle {
+    color: #6c757d;
+    font-size: 1.1em;}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-color: #3182ce;}
+.card h3 {
+    color: #2b6cb0;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;}
+
+.card p {
+    color: #4a5568;
+    font-size: 0.95em;
+    margin: 0;
+    line-height: 1.5;}
+h1{color: #1a365d;text-align: center;}
+h3{color:#1a365d ;}
+.highlight{color:#5c687a;text-align: center;}
+.drive{color: black;}
+.normal-btn{color: black;}
+    .normal-btn {color: rgba(96, 124, 218, 0.774)}
